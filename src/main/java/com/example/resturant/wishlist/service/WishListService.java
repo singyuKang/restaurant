@@ -100,7 +100,6 @@ public class WishListService {
         dto.setVisitCount(wishListEntity.getVisitCount());
         dto.setLastVisitDate(wishListEntity.getLastVisitDate());
         return dto;
-
     }
 
     public List<WishListDto> findAll(){
